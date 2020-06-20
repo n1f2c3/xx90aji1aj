@@ -1,0 +1,3 @@
+$ base64 SharpEnumLibrary.dll > SharpEnumLibrary.dll.b64
+$ cat SharpEnumLibrary.dll.b64 | python xor.py "mykey" > SharpEnumLibrary.dll.b64.xor
+https://github.com/ShawnDEvans/xorpy/blob/master/xor.py
